@@ -34,7 +34,7 @@ for i in range(tam):
     elemento = int(input(f"Ingrese El Elemento  {i+1} Para El Vector: "))
     v.append(elemento)
 
-   par,impar,primo=0,0,0
+   par,impar,primo = 0,0,0 
     for element in v:
         if element % 2 == 0:
         par += 1
@@ -50,14 +50,9 @@ Este vector tiene:
 {primo} Elementos Primos
 ''')
 
-"""
-Ejercicio 3
 
-Dado un Vector v y un Vector v1 de cómo resultado un Vector resultante de
-las siguientes operaciones:
-a. Suma
-b. Resta
-"""
+# Ejercicio 3
+
 va = []
 vb = []
 for i in range(2):
@@ -79,13 +74,7 @@ print(f'''
 La Suma De Estos Dos Vectores Es: {suma}
 La Resta De Estos Dos Vectores Es: {resta}''')
 
-
-"""
-Ejercicio 4
-
-De los n elementos de un vector dado identifique el número que mas se
-repite e indique cual es.
-"""
+# Ejercicio 4
 
 tam = int(input("Tamaño Del Vector: "))
 v = []
@@ -105,13 +94,7 @@ mas_repetido = repete.index(max(repete))
 repetido = (v[mas_repetido])
 print(f'''EL Elemento Que Más Se Repite Es: {repetido}''')
 
-"""
-Ejercicio 5
-
-Dado un Vector v de longitud par, divida en 2 partes, en la primera parte
-realice la productoria y en la segunda la sumatoria. Entregue los valores
-resultantes.
-"""
+# Ejercicio 5
 
 tam = int(input("Tamaño Del Vector: "))
 v = []
@@ -134,17 +117,7 @@ print(f'''
 La Productoria De La Primera Parte Es: {productoria}
 La Sumatoria De La Otra Parte Es: {sumatoria}''')
 
-
-"""
-Ejercicio 6
-
-Dado un vector v, indique si es simétrico, un vector es simétrico si siendo
-longitud par los números de la primera mitad son iguales al inverso de la
-otra mitad por ejemplo: X=[1,2,3,3,2,1], en el ejemplo x es un vector
-simétrico, en caso que la longitud del vector sea impar, se ignorará el
-elemento central y se seguirá la misma lógica anterior, por ejemplo:
-Y=[3,5,7,8,7,5,3], en este ejemplo Y es simétrico.
-"""
+# Ejercicio 6
 
 tam = int(input("Tamaño Del Vector: "))
 v = []
@@ -181,19 +154,7 @@ if simetrico:
 else:
     print(f'El Vector {v} No Es Simetrico')
 
-"""
-Ejercicio 7
-
-Dado dos vectores númericos A y B debe realizar las siguiente operaciones
-con conjuntos:
-a. Unión: Conjunto que contiene(sin repetir) los elementos de A y B.
-b. Intersección: Conjunto que contiene los elementos comunes que
-aparecen en los conjuntos A y B
-c. Diferencia(A-B) Conjunto formado por los elementos que pertenecen
-al conjunto A y no pertenecen al conjunto B.
-d. Diferencia (B-A) Conjunto formado por los elementos que pertenecen
-al conjunto B y no pertenecel al conjunto A.
-"""
+# Ejercicio 7
 
 va = []
 vb = []
