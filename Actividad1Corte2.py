@@ -25,7 +25,6 @@ El Mayor Elemento Del Vector Es: {maximo}
 El Menor Elemento Del Vector Es: {minimo}
 ''')
 
-
 # Ejercicio 2
 
 tam = int(input("Tamaño Del Vector: "))
